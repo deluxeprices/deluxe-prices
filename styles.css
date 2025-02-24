@@ -67,7 +67,7 @@ header nav ul li a {
     padding: 10px 20px;
     background-color: #e91e63;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -269,6 +269,16 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
+.contact .form-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
@@ -278,25 +288,25 @@ header nav ul li a {
 .contact form label {
     font-size: 18px;
     margin-bottom: 10px;
-    width: 80%;
-    max-width: 400px;
+    width: 100%;
 }
 
 .contact form input, .contact form textarea {
-    width: 80%;
-    max-width: 400px;
-    padding: 10px;
+    width: 100%;
+    padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .contact form button {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #e91e63;
     color: white;
     font-size: 18px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
